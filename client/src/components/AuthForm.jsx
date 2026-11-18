@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Clock, Trophy, AlertCircle, Zap } from 'lucide-react';
-import api from '../api';
+import { api } from '../api';
 
 export default function AuctionCard({ item, currentUser }) {
   const [bidAmount, setBidAmount] = useState('');
